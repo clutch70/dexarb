@@ -1,13 +1,9 @@
 import requests
 from html.parser import HTMLParser
-#import keys
 
 version = 0.001
 
 explorerUrl = "https://polygonscan.com/"
-
-
-# contractPageData = []
 
 
 class polygonScanParser(HTMLParser):
@@ -15,18 +11,13 @@ class polygonScanParser(HTMLParser):
     contractPageData = []
 
     def handle_starttag(self, tag, attrs):
-        # print("Encountered a start tag:", tag)
         pass
 
     def handle_endtag(self, tag):
-        # print("Encountered an end tag :", tag)
         pass
 
     def handle_data(self, data):
-        # print("Encountered some data  :", data)
-        # self.output(data)
         self.contractPageData.append(data)
-        # return data
 
 
 def run(w3):
