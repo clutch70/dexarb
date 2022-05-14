@@ -1,6 +1,5 @@
 from web3 import Web3
 # from web3 import EthereumTesterProvider
-import polygon
 # create your own keys.py with an API token and whatever other private things you need
 import keys
 import common
