@@ -1,6 +1,8 @@
 import polygon
 
 
+version = 0.001
+
 # Functions implemented in this module should handle all supported chains in main.tokenData
 
 

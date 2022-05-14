@@ -11,7 +11,7 @@ polygonWss = "wss://polygon-mainnet.g.alchemy.com/v2/" + keys.urlToken
 address = keys.ledg01Addr
 lpContract = "0xdC9232E2Df177d7a12FdFf6EcBAb114E2231198D"
 tokenContract = "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
-
+version = 0.001
 
 # tokenData = [{"polygon":{"baseContract":"0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"},
 #                {"lpContracts":
