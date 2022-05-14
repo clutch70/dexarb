@@ -7,28 +7,16 @@ explorerUrl = "https://polygonscan.com/"
 
 
 class polygonScanParser(HTMLParser):
-    # i = []
     contractPageData = []
-
-    def handle_starttag(self, tag, attrs):
-        pass
-
-    def handle_endtag(self, tag):
-        pass
-
     def handle_data(self, data):
         self.contractPageData.append(data)
-
 
 def run(w3):
     print(version)
 
-
 def html_to_list(rawHtml, parser):
     # pass the raw HTML to HTMLParser
     parser.feed(rawHtml)
-
-
 
 def get_url_trailer(addrtype):
     if addrtype == "address":
