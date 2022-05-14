@@ -1,5 +1,3 @@
-import requests
-from html.parser import HTMLParser
 import polygon
 
 #Functions implemented in this module should handle all supported chains in main.tokenData
