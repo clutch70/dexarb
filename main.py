@@ -31,8 +31,8 @@ def run():
     # balance = w3.fromWei(w3.eth.get_balance(address), 'ether')
     # decBalance = w3.fromWei(balance, 'ether')
     # print(balance,"MATIC")
-    #abi = polygon.get_abi(w3, "address", lpContract)
-    #eventually, the chain parameter (polygon) needs to be replaced with tokenData
+    # abi = polygon.get_abi(w3, "address", lpContract)
+    # eventually, the chain parameter (polygon) needs to be replaced with tokenData
     abi = common.get_abi(w3, "address", lpContract, "polygon")
     contract_instance = w3.eth.contract(address=lpContract, abi=abi)
     print(contract_instance.all_functions())

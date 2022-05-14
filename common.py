@@ -1,6 +1,7 @@
 import polygon
 
-#Functions implemented in this module should handle all supported chains in main.tokenData
+
+# Functions implemented in this module should handle all supported chains in main.tokenData
 
 
 def get_abi(w3, addrType, contractAddr, chain):
@@ -10,6 +11,7 @@ def get_abi(w3, addrType, contractAddr, chain):
 
 def run():
     pass
+
 
 if __name__ == '__main__':
     run()
