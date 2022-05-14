@@ -4,12 +4,6 @@ import polygon
 #create your own keys.py with an API token and whatever other private things you need
 import keys
 
-# This is a sample Python script.
-
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
 url = "https://eth-mainnet.alchemyapi.io/v2/" + keys.urlToken
 polygonUrl = "https://polygon-mainnet.g.alchemy.com/v2/" + keys.urlToken
 wss = "wss://eth-mainnet.alchemyapi.io/v2/" + keys.urlToken
@@ -17,6 +11,14 @@ polygonWss = "wss://polygon-mainnet.g.alchemy.com/v2/" + keys.urlToken
 address = keys.ledg01Addr
 lpContract = "0xdC9232E2Df177d7a12FdFf6EcBAb114E2231198D"
 tokenContract = "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+#tokenData = [{"polygon":{"baseContract":"0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"},
+#                {"lpContracts":
+#                     []
+#                 }
+
+
+#            }]
+
 
 def run():
     w3 = Web3(Web3.WebsocketProvider(polygonWss))
